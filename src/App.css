@@ -1,0 +1,8 @@
+.hoverCard:hover{
+  transform: scale(0.99);
+  transition: transform .5s;
+}
+
+.hideScroll ::-webkit-scrollbar{
+  display: none;
+}
