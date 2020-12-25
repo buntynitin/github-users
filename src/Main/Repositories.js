@@ -58,7 +58,7 @@ function Repositories({ url }) {
                     if (err.response.status === 403)
                         setError({
                             hasError: true,
-                            errorMessage: "Github API limit exceeded, Try Again after some time"
+                            errorMessage: "Github API limit exceeded"
                         }
                         )
                     else setError({
@@ -72,7 +72,7 @@ function Repositories({ url }) {
 
             })
 
-    }, [url])
+    }, [url,page])
 
 
 

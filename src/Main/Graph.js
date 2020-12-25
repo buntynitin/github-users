@@ -59,7 +59,7 @@ function Graph({ url }) {
             .catch((err) => {
               setIsLoading(false)
             })
-    },[])
+    },[url])
 //red 20%,blue 20%, blue 50%,gray 0
 //
     return (

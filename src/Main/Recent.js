@@ -110,7 +110,7 @@ export default function Recent({ query }) {
                 {query === ''?
                  <div style={{marginTop:"30vh"}}>
                  <center>
-                 <img width="100px" height="100px" src="/github.svg"/>
+                 <img alt='' width="100px" height="100px" src="/github.svg"/>
                      <Typography variant="h5">
                          
                          

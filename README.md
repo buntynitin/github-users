@@ -1,3 +1,5 @@
+# NOTE The App allows only 60 Github api calls / hour / IP address
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
